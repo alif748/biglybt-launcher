@@ -1,2 +1,1 @@
-cd "C:\Program Files\BiglyBT"
-start .\jre\bin\javaw.exe -cp "BiglyBT.jar;commons-cli.jar;swt.jar" -Dazureus.instance.port=16889 com.biglybt.ui.Main
+PowerShell Start-Process -FilePath 'C:\Program Files\BiglyBT\jre\bin\javaw.exe' -WorkingDirectory 'C:\Program Files\BiglyBT' -ArgumentList '-cp "BiglyBT.jar;commons-cli.jar;swt.jar" -Dazureus.instance.port=16889 com.biglybt.ui.Main'
